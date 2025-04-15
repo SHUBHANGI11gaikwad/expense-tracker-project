@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css or styles.scss */
+body {
+    background-color: rgb(188, 185, 190);
+    /* Other background properties if needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

@@ -1,0 +1,23 @@
+<!-- dashboard.component.html -->
+<div>
+  <h1>Welcome User</h1>
+  <h2>Welcome to the Dashboard!</h2>
+  <p>Here, you can view important information and statistics about your expenses.</p>
+</div>
+
+
+<form>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+
+  <br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <br>
+
+  <button (click)="navigateToLogin()">Login</button>
+</form>
+
+<p>New User? <a href="registration.html">Create an account</a></p>
